@@ -212,6 +212,16 @@ main {
     box-shadow: 0 0 25px var(--color-white);
 }
 
+.btn:active {
+    transition: all .2s linear;
+    background: var(--color-white);
+    color: var(--color-primary);
+    border: none;
+    box-shadow: 0 0 25px var(--color-white);
+    filter: brightness(0.3);
+    
+}
+
 footer {
     background-color: #373737;
     text-align: center;
